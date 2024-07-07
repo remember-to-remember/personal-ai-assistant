@@ -1,0 +1,16 @@
+.DS_Store
+.pipelines
+.vscode
+.git
+logs
+data
+local
+sample
+.dockerignore
+.gitignore
+Dockerfile
+**/README*
+*.sh
+**/__pycache__
+**/*.ipynb
+**/*.sqlite3
