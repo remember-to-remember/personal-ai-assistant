@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: API Module",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "core.api",
+            "env": {
+                "MONGODB_CONNECTION_STRING": "mongodb://apiuser:pass%40word1@localhost:27017/r2r_personal_ai_assistant?authMechanism=DEFAULT&authSource=r2r_personal_ai_assistant",
+                "WHATSAPP_FOR_BUSINESS_API_TOKEN": "<redacted>"
+            }
+        }
+    ]
+}
